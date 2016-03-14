@@ -180,7 +180,7 @@ func (mc *mysqlConn) readInitPacket() ([]byte, error) {
 		// reserved (all [00]) [10 bytes]
 		pos += 1 + 2 + 2 + 1 + 10
 
-		// second part of the password cipher [mininum 13 bytes],
+		// second part of the password cipher [minimum 13 bytes],
 		// where len=MAX(13, length of auth-plugin-data - 8)
 		//
 		// The web documentation is ambiguous about the length. However,
