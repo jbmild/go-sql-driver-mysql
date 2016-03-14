@@ -23,7 +23,7 @@ Bugfixes:
 
 New Features:
  - Support for returning table alias on Columns() (#289, #359, #382)
- - Placeholder interpolation, can be actived with the DSN parameter `interpolateParams=true` (#309, #318)
+ - Placeholder interpolation, can be activated with the DSN parameter `interpolateParams=true` (#309, #318)
  - Support for uint64 parameters with high bit set (#332, #345)
  - Cleartext authentication plugin support (#327)
 
