@@ -1671,7 +1671,7 @@ func TestConcurrent(t *testing.T) {
 			}(i)
 		}
 
-		// wait until all conections are open
+		// wait until all connections are open
 		wg.Wait()
 
 		if fatalError != "" {
